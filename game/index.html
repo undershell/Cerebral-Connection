@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>الرابط المشترك</title>
+  <meta name="description" content="hangman game, arabic hangman, learn Arabic, game, لعبة المشنقة, المشنقة">
+  <meta name="author" content="nbyl, undershell">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– 
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">-->
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="rsc/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="container centric game">
+
+	<div class="row header" style="margin-top: 2%">
+		<h1>الرابط المشترك<h1>
+		<h4>احزر الرابط المشترك بين الكلمات</h4>
+	</div>
+	
+	<hr>
+	
+	<div class="">
+		<div id="tags" style="font-size:2rem;"></div>
+		<br />
+	    <div id="hold"></div>
+	</div>
+	<br />
+		
+	<div class="row centric">
+		
+		<div class="control">
+			<button id="play">التالي</button>
+			<button id="reset">من جديد</button>
+		</div>
+		
+		<div class="">
+			<p id="result"></p>
+		</div>
+	
+		
+		<div class="centric" id="keyboard">
+			<span id="buttons"></span>
+		</div>
+	</div>
+			
+			<hr />
+			
+	<div class="row footer" style="margin-top: 5%">
+	    <!--<p id="footer">CommonRabiT © SeenJeem</p>-->
+	</div>
+	
+	<audio id="bip" src="rsc/button.mp3"></audio>
+	<script src="js/jquery.min.js"></script>
+	<script src="data.js"></script>
+	<script src="js/index.js"></script>
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
